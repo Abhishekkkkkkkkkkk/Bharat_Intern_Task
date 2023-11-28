@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhishek - Frontend Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f1ccbd1911.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ***** Header Section ***** -->
+
+    <div id="header">
+      <div class="container">
+        <nav class="navbar">
+          <img src="images/logo.PNG" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Service</a></li>
+            <li><a href="#certificates">Certificate</a></li>
+            <li><a href="#portfolio">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p><b>Hi I'm Abhishek Kumar</b></p>
+          <h1><span>Frontend Web Developer</span> <br /></h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***** About Section ***** -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/aboutmeimgg.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title sub">About Me</h1>
+            <p class="aboutme">
+              A motivated individual with in depth knowledge of languages like
+              <b class="bold">C</b>,<b class="bold">C++</b> and
+              <b class="bold">JavaScript</b>, can use my skills to the
+              advantages of the company while having the scope to develop my own
+              skills. My interests are in frontend development and love to work
+              as a Web developer !
+            </p>
+            <p class="font">
+              - 🔎 I'm looking forward to
+              <b class="bold">internship opportunities</b>.
+            </p>
+            <p class="font">
+              - 😍 I love to <b class="bold">cooking</b> and
+              <b class="bold">explore new things</b>.
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>HTML</span><br /></li>
+                <li><span>CSS</span><br /></li>
+                <li><span>JavaScript</span><br /></li>
+                <li><span>C/C++</span><br /></li>
+                <li><span>Tailwind CSS</span><br /></li>
+                <li><span>BootStrap</span><br /></li>
+                <li><span>React JS</span><br /></li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2023</span><br />Web Developer Intern at Oasis InfoByte
+                  (<b class="bold">1 Month</b>-Remote)
+                </li>
+                <li>
+                  <span>2023</span><br />Web Developer Intern at Bharat Intern
+                  (<b class="bold">1 Month</b>-Remote)
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>B.Tech</span><br />Chameli Devi Group of Instutions,
+                  Indore | <b class="bold">8.13 CGPA</b> | (2020-2024)
+                </li>
+                <li>
+                  <span>Higher Secondary Education</span><br />Bihar School
+                  Examination Board, Patna | <b class="bold">71.6%</b> | (2020)
+                </li>
+                <li>
+                  <span>Higher School Education</span><br />Bihar School
+                  Examination Board, Patna | <b class="bold">65.2%</b> | (2018)
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***** Services Section ***** -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-palette"></i>
+            <h2>Responsive Web Design</h2>
+            <p>
+              Creating layouts that adapt to different screen sizes and devices
+              to provide a consistent user experience across desktops, tablets,
+              and smartphones.
+            </p>
+            <a href="https://app.netlify.com/teams/krabhishek0321"
+              >Learn More</a
+            >
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>JavaScript Development</h2>
+            <p>
+              Writing and implementing JavaScript code to make websites
+              interactive and dynamic.Utilizing JavaScript frameworks and
+              libraries (e.g., React) for efficient development.
+            </p>
+            <a href="https://app.netlify.com/teams/krabhishek0321"
+              >Learn More</a
+            >
+          </div>
+          <div>
+            <i class="fa-brands fa-sketch"></i>
+            <h2>User Interface (UI) Development</h2>
+            <p>
+              Implementing the visual design of the website, including elements
+              like buttons, forms, navigation menus, and other UI components.
+            </p>
+            <a href="https://app.netlify.com/teams/krabhishek0321"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***** Certificate Section ***** -->
+
+    <div id="certificates">
+      <div class="container">
+        <h1 class="sub-title">Certificate</h1>
+        <div class="certificates-list">
+          <div class="certificate">
+            <img src="images/certificate-1.png" />
+          </div>
+          <div class="certificate">
+            <img src="images/certificate-2.PNG" />
+          </div>
+          <div class="certificate">
+            <img src="images/certificate-3.PNG" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ***** Portfolio Section ***** -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.PNG" />
+            <div class="layer">
+              <a href="https://netflix-clone124.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.PNG" />
+            <div class="layer">
+              <a href="https://abhishekkkk-calculator.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.PNG" />
+            <div class="layer">
+              <a href="https://abhishek-temperature-convetor.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-4.PNG" />
+            <div class="layer">
+              <a href="https://abhishek-portfolio3rd.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-5.PNG" />
+            <div class="layer">
+              <a href="https://sk-it-solution.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-6.PNG" />
+            <div class="layer">
+              <a href="https://weatherappbyabhishek.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-7.PNG" />
+            <div class="layer">
+              <a href="https://abhishekkkk-analog-clock.netlify.app/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-8.PNG" />
+            <div class="layer">
+              <a href="https://github.com/Abhishekkkkkkkkkkk"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="https://github.com/Abhishekkkkkkkkkkk" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- ***** Contact Section ***** -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i> krabhishek0321@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i> 9508273674</p>
+            <div class="social-icons">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://github.com/Abhishekkkkkkkkkkk"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/abhishek-kumar-a77600221/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Abhishek@2023<i class="fa-solid fa-heart"></i>All rights reserved</p>
+      </div>
+    </div>
+
+    <!-- ***** Script for Side Menu tab in the navbar section ***** -->
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-600px";
+      }
+
+      var navigationItems = document.querySelectorAll("#sidemenu li a");
+      var menuBtn = document.querySelector(".fa-bars");
+      var navigation = document.querySelector(".navbar");
+
+      navigationItems.forEach((navigationItem) => {
+        navigationItem.addEventListener("click", () => {
+          closemenu(); // Close the menu when the navigation item is clicked
+        });
+      });
+
+      // Close the menu when the close button is clicked
+      var closeBtn = document.querySelector(".fa-xmark");
+      closeBtn.addEventListener("click", () => {
+        closemenu();
+      });
+
+      // Open the menu when the menu button is clicked
+      menuBtn.addEventListener("click", () => {
+        openmenu();
+      });
+    </script>
+
+    <!-- ***** Script for message sent to the google sheet ***** -->
+
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbyOzXuDMo1SF72NiAE-PPva33RRaBuHSIqNM3BrVCCZqT7mOC1ujszMeWV23amWND1g/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 2000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
